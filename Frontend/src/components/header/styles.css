@@ -1,0 +1,32 @@
+.page-header {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+}
+
+.page-header .top-bar-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 0;
+}
+
+@media (min-width: 1100px) {
+    .page-header {
+        width: 100%;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        background: #ffffff;
+    }
+    .page-header .top-bar-container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4rem 11rem;
+    }
+}

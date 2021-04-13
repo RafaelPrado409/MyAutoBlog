@@ -1,0 +1,72 @@
+.page-signin {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.2rem;
+}
+
+.page-signin+.page-signin {
+    margin-top: 1.4rem;
+}
+
+.page-signin label {
+    font: italic 0.7rem Roboto;
+    margin-bottom: 0.2rem;
+}
+
+.page-signin input {
+    background: #000000;
+    width: 17.5rem;
+    height: 2.8rem;
+    padding: 1rem;
+    border-radius: 0.7rem 0.7rem 0 0;
+    font: 1rem Roboto;
+    color: #ffffff;
+}
+
+.page-signin:focus-within::after {
+    width: calc(100% - 3.2rem);
+    height: 2px;
+    position: absolute;
+    left: 1.6rem;
+    right: 1.6rem;
+    bottom: 0;
+}
+
+@media (min-width: 1100px) {
+    .page-signin {
+        position: relative;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 4rem;
+        margin-left: 20.5rem;
+    }
+    .page-signin+.page-signin {
+        margin-top: 1.4rem;
+    }
+    .page-signin label {
+        font: italic 1.1rem Roboto;
+        margin-bottom: 0.2rem;
+    }
+    .page-signin input {
+        background: #000000;
+        width: 25rem;
+        height: 4rem;
+        padding: 1rem;
+        border-radius: 0.7rem 0.7rem 0 0;
+        font: 1.7rem Roboto;
+        color: #ffffff;
+    }
+    .page-signin:focus-within::after {
+        width: calc(100% - 3.2rem);
+        height: 2px;
+        position: absolute;
+        left: 1.6rem;
+        right: 1.6rem;
+        bottom: 0;
+    }
+}

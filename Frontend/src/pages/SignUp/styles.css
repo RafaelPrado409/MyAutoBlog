@@ -1,0 +1,111 @@
+#page-signup {
+    width: 100vw;
+    height: 100vh;
+    background: no-repeat linear-gradient( to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../../assets/mobileground.png');
+    background-size: cover;
+}
+
+label {
+    font: italic 0.7rem Roboto;
+    margin-bottom: 0.2rem;
+}
+
+.input-container {
+    margin-top: 1.2rem;
+}
+
+.profile-container {
+    display: grid;
+    grid-template: columns;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.4rem;
+    margin-bottom: -5.5rem;
+}
+
+.profile {
+    width: 17.5rem;
+    height: 10rem;
+    background: #000000;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.upload-container {
+    margin-top: 2.5rem;
+}
+
+.upload-container p {
+    font: 0.8rem Roboto;
+    color: #ffffff;
+    margin-left: 0.5rem;
+}
+
+.upload-container button {
+    background: #ffffff;
+    color: #000000;
+    align-self: initial;
+    margin: 0.5rem 0 0 0.5rem;
+    width: 6rem;
+    height: 2.5rem;
+}
+
+@media (min-width: 1100px) {
+    #page-signup {
+        width: 100vw;
+        height: 100vh;
+        background: no-repeat linear-gradient( to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../../assets/deskground.png');
+        background-size: cover;
+    }
+    .input-container {
+        margin-top: 1.5rem;
+    }
+    .profile-container {
+        display: grid;
+        grid-template: columns;
+        grid-template-columns: auto;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 1.4rem 0 -21rem 20.5rem;
+    }
+    .profile-container label {
+        font: italic 1.1rem Roboto;
+        margin-bottom: 0.2rem;
+    }
+    .profile {
+        width: 25rem;
+        height: 17.3rem;
+        background: #000000;
+        border-radius: 10px 10px 0px 0px;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .profile img {
+        margin-left: 1rem;
+    }
+    .upload-container {
+        margin: 6.2rem 1rem 0 1rem;
+    }
+    .upload-container p {
+        font: 1rem Roboto;
+        line-height: 1.1rem;
+        color: #ffffff;
+        margin-left: 0.5rem;
+    }
+    .upload-container button {
+        background: #ffffff;
+        color: #000000;
+        align-self: initial;
+        margin: 0.5rem 0 0 0.5rem;
+        width: 6.25rem;
+        height: 3.7rem;
+    }
+}

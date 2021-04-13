@@ -1,0 +1,98 @@
+.footer-container {
+    position: absolute;
+    margin-top: 7.5rem;
+    width: 20rem;
+    height: 5rem;
+    padding: 0;
+}
+
+button:first-child {
+    width: 6rem;
+}
+
+button+button {
+    margin-left: 1.3rem;
+}
+
+button {
+    margin-left: 1.2rem;
+    margin-bottom: -0.6rem;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 0.8rem 0.8rem 0 0;
+    background: linear-gradient(180deg, #bd1309 0%, #3d0600 100%);
+    color: #ffffff;
+    font: italic 0.9rem Roboto;
+}
+
+.rights {
+    position: relative;
+    height: 2.5rem;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1px;
+    margin-top: 0.6rem;
+    border-top: 2px solid #000000;
+}
+
+p {
+    font: 400 0.5rem Roboto;
+    color: #575757;
+    margin-left: 1.1rem;
+    margin-top: 0.6rem;
+}
+
+span {
+    color: #575757;
+    font: 700 0.5rem Roboto;
+    margin-left: 1.1rem;
+    display: flex;
+    align-self: center;
+}
+
+@media (min-width: 1100px) {
+    .footer-container {
+        position: absolute;
+        margin-top: 57rem;
+        width: 20rem;
+        height: 5rem;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+    button:first-child {
+        width: 10rem;
+    }
+    button+button {
+        margin-left: 1.3rem;
+    }
+    button {
+        margin-left: 20.5rem;
+        height: 4.9rem;
+        width: 12.3rem;
+        border-radius: 0.8rem 0.8rem 0 0;
+        background: linear-gradient(180deg, #bd1309 0%, #3d0600 100%);
+        color: #ffffff;
+        font: italic 900 1.2rem Roboto;
+    }
+    .rights {
+        position: relative;
+        height: 3.8rem;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 0.1rem;
+        border-top: 2px solid #000000;
+    }
+    p {
+        font: 400 0.7rem Roboto;
+        color: #575757;
+        margin-left: 20.5rem;
+        margin-top: 1rem;
+    }
+    span {
+        color: #575757;
+        font: 700 0.7rem Roboto;
+        margin-left: 20.5rem;
+        display: flex;
+        align-self: center;
+    }
+}

@@ -1,0 +1,202 @@
+#page-dashboard {
+    width: 100vw;
+    height: 100vh;
+}
+
+.header-container a {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: -1.9rem 4rem 0 0;
+    font: italic 700 0.7rem Roboto;
+    color: #bd1309;
+}
+
+.post-container {
+    width: 100%;
+    height: 9.4rem;
+    margin-top: 1.4rem;
+    display: flex;
+    padding: 1rem;
+    background-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../../assets/post-background.png');
+}
+
+.post-container+.post-container {
+    margin-top: 32rem;
+    margin-bottom: -4rem;
+    background: #ffffff;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.post-header>img {
+    width: 60px;
+    height: 80px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 0.5rem;
+}
+
+.details {
+    margin: 2.5rem 0 0 -0.5rem;
+}
+
+.details p {
+    font: italic 700 0.9rem Roboto;
+    color: #000000;
+}
+
+.details span {
+    font: italic 700 0.8rem Roboto;
+    margin-top: 0.3rem;
+}
+
+.edit-delete {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.edit-delete img:first-child {
+    margin-bottom: 0.5rem;
+}
+
+.edit-delete img {
+    width: 25px;
+    height: 25px;
+}
+
+.posts {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+.posts span {
+    font: italic 700 1.13rem Roboto;
+    color: #000000;
+    margin-top: 7.8rem;
+    line-height: 1.3rem;
+    text-transform: uppercase;
+    width: 100%;
+    margin-right: 1rem;
+}
+
+.post-content img {
+    width: 280px;
+    height: 150px;
+    margin-top: 1rem;
+}
+
+.text-container p {
+    width: 280px;
+    margin: 0.5rem 0 0 0.1rem;
+    font: 0.77rem Roboto;
+    line-height: 1rem;
+    color: #666666;
+    text-align: left;
+}
+
+.page-footer {
+    margin-top: 33rem;
+}
+
+@media (min-width: 1100px) {
+    #page-dashboard {
+        width: 100vw;
+        height: 100vh;
+    }
+    .header-container a {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 26rem;
+        margin-top: -5rem;
+        font: italic 700 0.88rem Roboto;
+        color: #bd1309;
+    }
+    .post-container {
+        width: 100%;
+        height: 12.5rem;
+        margin-top: 4rem;
+        padding: 5rem;
+        background-image: url('../../assets/post-deskground.png');
+    }
+    .post-container+.post-container {
+        margin-top: 60rem;
+        margin-bottom: -4rem;
+        background: #ffffff;
+    }
+    .post-header {
+        display: flex;
+        align-items: center;
+        margin-left: 15rem;
+    }
+    .post-header>img {
+        width: 150px;
+        height: 198px;
+        border-radius: 10px 10px 0 0;
+        margin-top: 16rem;
+    }
+    .details>p,
+    .details>span {
+        margin-left: 2rem;
+        margin-top: 29rem;
+    }
+    .details p {
+        font: italic 700 1.4rem Roboto;
+        color: #000000;
+    }
+    .details span {
+        font: italic 700 1.1rem Roboto;
+        margin-top: 0.3rem;
+    }
+    .edit-delete {
+        display: flex;
+        flex-direction: row;
+        margin-left: 119rem;
+        margin-top: 18rem;
+    }
+    .edit-delete img:first-child {
+        margin-right: 2rem;
+    }
+    .edit-delete img {
+        width: 25px;
+        height: 25px;
+    }
+    .posts {
+        display: flex;
+    }
+    .posts span {
+        font: italic 700 2.5rem Roboto;
+        color: #000000;
+        margin-top: 22rem;
+        line-height: 1.3rem;
+        text-transform: uppercase;
+        width: 100%;
+        margin-left: 30rem;
+    }
+    .posts img {
+        width: 600px;
+        height: 300px;
+        margin-top: 3rem;
+    }
+    .post-content {
+        display: flex;
+        flex-direction: row;
+        margin-left: 14.5rem;
+    }
+    .text-container p {
+        width: 680px;
+        height: 300px;
+        margin-top: 3rem;
+        font: 1.9rem Roboto;
+        color: #666666;
+        margin-left: 2rem;
+        text-align: left;
+    }
+}

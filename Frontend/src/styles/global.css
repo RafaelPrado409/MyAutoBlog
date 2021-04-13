@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: 0;
+}
+
+html,
+body,
+#root {
+    height: 100vh;
+}
+
+.container {
+    width: 90vw;
+    max-width: 700px;
+}
+
+body {
+    font: 0.8rem italic 'Roboto', sans-serif;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+}
+
+input {
+    font: 1rem normal 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    font: 0.9rem italic 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+@media (min-width: 700px) {
+     :root {
+        font-size: 62.5%;
+    }
+}
